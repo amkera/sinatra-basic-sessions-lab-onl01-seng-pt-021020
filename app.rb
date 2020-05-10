@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end 
   
   get '/' do 
-    erb :'./views/index.erb'
+    erb :index
   end 
   
   post '/checkout' do 
